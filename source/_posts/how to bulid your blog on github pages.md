@@ -8,11 +8,7 @@ date: 2016-08-22 16:08:15
 
 - 配置SSH keys和添加SSH Key到Github
 
-
-
 # 使用Github Pages建立博客
-
-
 
 ## 在本地创建名为`blog`的文件夹，并初始化为git仓库
 
@@ -25,8 +21,6 @@ $ git init
 
 ```
 
-
-
 ## github上建立仓库
 
 在github首页，点击页面右下角`New Repository`
@@ -35,9 +29,7 @@ $ git init
 
 ***注：Github Pages的Repository的名字是有规定格式的，否则Github无法识别这个Repository是你的Github账户的Pages***
 
-
-
-## Hexo框架
+## Hexo模板引擎
 
 ### Hexo是什么
 
@@ -47,11 +39,9 @@ Hexo是一个简单、快速、强大的博客发布工具，支持Markdown格�
 
 `$ npm install hexo`
 
-
 ### 部署Hexo
 
 `$ hexo init`
-
 
 Hexo随后会自动在目标文件夹里建立网站所需的所有文件。
 
@@ -67,8 +57,6 @@ hexo s
 ```
 
 然后到浏览器输入`localhost:4000`查看效果。
-
-
 
 ## 安装Hexo主题
 
