@@ -129,26 +129,23 @@ repository: https://git@github.com:ChenTao92/ChenTao92.github.io.git
 branch: master
 ```
 
-## 安装theme插件
-
-`$ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive`
-
-## 如遇到“Deployer not found: github”时的解决办法
-
-`$ npm install hexo-deployer-git --save`
-
-
 ## 写博客
 
-输入`hexo new "postName"`指令即可，hexo会在 `blog/source/_posts/ `目录下建立新的`.md`文件，写入Markdown格式博文即可。
+输入`hexo new postName`指令即可，`postName`为你的新博文名称，hexo会在 `blog/source/_posts/ `目录下建立新的`.md`文件，写入Markdown格式博文即可。
 
 ## 启动本地服务，进行文章预览调试
 
-> `$ hexo s`
+> $ hexo s
 
 - 然后到浏览器输入`http://localhost:4000/`查看效果。
 
 - 查看效果完成后，可按`Ctrl+C`结束进程
+
+## 若遇到主题无法启用，可能还需要安装某些theme插件
+- 若未遇到主题无法启用的问题，本步骤请忽略
+- 具体请参考主题的详细介绍页面，如Apollo主题就需要安装执行下面的指令：
+
+> $ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 
 ## 推送到Github
 
@@ -158,6 +155,11 @@ $ hexo g
 $ hexo d
 
 ```
+
+## 若遇到“Deployer not found: github”时的解决办法
+- 若未遇到此问题，本步骤请忽略
+
+> $ npm install hexo-deployer-git --save
 
 ## 访问博客
 
