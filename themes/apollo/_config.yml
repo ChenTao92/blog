@@ -2,7 +2,7 @@ menu:
     Blog: /
     Archive: /archives/
     GitHub: https://github.com/chentao92
-    About: 404
+    About: /About/
     Resume: https://chentao92.github.io/MyResume/
 
 favicon: /favicon.png
@@ -10,8 +10,8 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus: taochen
-duoshuo:
+# disqus: taochen
+duoshuo: chentao92
 
 # Analytics
 # google-analytics:
