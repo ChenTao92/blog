@@ -1,7 +1,9 @@
 ---
 title: 如何用纯CSS实现带小三角形的会话框
-date: 2016-09-09 11:07:31
-tags:
+date: 2016-08-12 11:07:31
+categories: Web
+tags: 
+  - css
 ---
 ## 前言
 生活中能看到很多带小三角形的会话框，如QQ、微信、时间轴等等，就像这样的：
@@ -10,7 +12,7 @@ tags:
 
 ## 基本原理
 
-#### 首先我们来看一下纯CSS实现三角形的原理：
+### 首先我们来看一下纯CSS实现三角形的原理：
 
 其实就是对于border和transparent的应用
 <!--more-->
@@ -38,7 +40,7 @@ tags:
 </body>
 ```
 
-下面用CSS分别实现向上、下、左、右的三角形
+### 再用CSS分别实现向上、下、左、右的三角形
 
 ```css
 /*向上的三角*/
@@ -142,3 +144,5 @@ body{
 ![](http://ww4.sinaimg.cn/large/873fcdb7gw1f7plr95yzfj20y00goaas.jpg)
 
 好了，到这里我们就完工了，剩下的就是做一些美化的工作了。
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=426852063&auto=1&height=66"></iframe>

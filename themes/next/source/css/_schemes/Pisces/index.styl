@@ -1,0 +1,40 @@
+body { background: #f5f7f9; }
+
+@import "_full-image";
+@import "_layout";
+@import "_brand";
+@import "_menu";
+@import "_sidebar";
+@import "_posts";
+
+
+// 以下为找不到styl中的样式位置，自行添加修改的CSS
+
+// ##标题字体调整
+.site-title {
+  font-family: "Comic Sans MS" !important;
+}
+
+// ##搜索框样式调整
+.search-icon {
+  top: 19px;
+}
+#local-search-input {
+  padding: 13px;
+}
+.popup-btn-close {
+  top: 16px;
+}
+#local-search-input {
+  width: 600px;
+}
+
+// ##关闭底部Hexo和主题等信息
+.powered-by, .theme-info {
+  display: none;
+}
+
+// ##关闭评论应用下面的多说版权尾巴
+.ds-powered-by {
+  display: none;
+}

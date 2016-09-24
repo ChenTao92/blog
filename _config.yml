@@ -3,16 +3,49 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: taochen的个人博客
+title: TaoChen's Blog
 subtitle:
-description:
+description: web developer
 author: taochen
-language:
+language: zh-Hans
 timezone:
+avatar: /uploads/avatar.png
+
+# duoshuo评论和多说热评
+duoshuo_shortname: chentao92
+duoshuo_hotartical: true
+
+# 站内搜索
+# search:
+#   path: search.xml
+#   field: post
+
+# 多说分享服务
+duoshuo_share: true
+
+# Baidu分享服务
+# baidushare: true
+
+
+# JiaThis 分享服务
+# jiathis: true
+
+
+# 为首页和归档页面设置不同的文章篇数,per_page 即文章的数量
+index_generator:
+  per_page: 3
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/chentao92
+url: https://chentao92.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +96,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
