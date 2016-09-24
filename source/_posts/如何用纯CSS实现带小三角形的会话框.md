@@ -146,3 +146,8 @@ body{
 好了，到这里我们就完工了，剩下的就是做一些美化的工作了。
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=426852063&auto=1&height=66"></iframe>
+
+>最近访客
+
+<div class="ds-recent-visitors" data-num-items="28" data-avatar-size="42" id="ds-recent-visitors"></div>
+<br>
