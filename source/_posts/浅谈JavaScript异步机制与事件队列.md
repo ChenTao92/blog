@@ -60,6 +60,7 @@ for (var i = 1; i < 4; i++) {
 这样一个例子为什么会出现这样的输出结果而不是`1 2 3`，现在就不难理解了吧。同样的缘故，在for循环没有结束之前，事件队列中的function函数是不会被执行的。
 
 所以说，`setTimeout`和`setInterval`一样，它们的异步机制决定了其计时精准度严格来说是不准确的。
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=426852063&auto=0&height=0"></iframe>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=426852063&auto=1&height=66"></iframe>
 
 >最近访客
