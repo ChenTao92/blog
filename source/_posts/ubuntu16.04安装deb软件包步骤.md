@@ -142,7 +142,7 @@ $ sudo dpkg -L <package.deb>
 $ sudo dpkg -s <package.deb>
 ```
 
-7.重新配制一个已经安装的包裹：
+7.重新配置一个已经安装的包裹：
 
 ```bash
 $ sudo dpkg-reconfigure <package.deb>
