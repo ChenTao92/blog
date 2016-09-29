@@ -88,54 +88,55 @@ $ sudo dpkg -i netease-cloud-music.deb
 ```
 
 等指令执行完成后，deb软件就已经被安装好了。
+*如果仍然未安装成功，此时可尝试重启后再执行安装，因为一些修复的依赖可能需要重启后才能生效。*
 
 
 
-这里其实就是两个指令，前一个是修复依赖关系和自动下载安装所需的依赖，后一个是dpkg套件管理系统指令，下面来简单介绍一下：
+这里其实就是两个指令，前一个是修复依赖关系和自动下载安装所需的依赖，后一个是dpkg套件管理系统指令，下面来简单介绍一下后者：
 
 deb是debian linus的安装格式，跟red hat的rpm非常相似，最基本的安装命令是：
 
 ```bash
-$ sudo dpkg -i package .deb
+$ sudo dpkg -i package.deb
 ```
 
-dpkg 是Debian Package的简写，是为Debian 专门开发的套件管理系统，方便软件的安装、更新及移除。所有源自Debian的Linux发行版都使用dpkg，例如Ubuntu、Knoppix 等。
+dpkg是Debian Package的简写，是为Debian专门开发的套件管理系统，方便软件的安装、更新及移除。所有源自Debian的Linux发行版都使用dpkg，例如Ubuntu、Knoppix等。
 
 
 
 以下是一些 dpkg 的其他用法：
 
-1.查看package.deb软件包中包含的文件结构（其中-c等价于--contents）
+1.查看package.deb软件包中包含的文件结构（其中-c等价于\--contents）：
 
 ```bash
 $ sudo dpkg -c <package.deb>
 ```
 
-2.查看package.deb软件包的详细信息，包括软件名称、版本以及大小等（其中-I等价于--info）
+2.查看package.deb软件包的详细信息，包括软件名称、版本以及大小等（其中-I等价于\--info）：
 
 ```bash
 $ sudo dpkg -I <package.deb>
 ```
 
-3.移除一个已安装的包裹（软件名称可通过dpkg -I命令查看，其中-r等价于--remove）
+3.移除一个已安装的包裹（软件名称可通过dpkg -I命令查看，其中-r等价于\--remove）：
 
 ```bash
 $ sudo dpkg -r <package.deb>
 ```
 
-4.完全清除一个已安装的包裹。和 remove 不同的是，remove 只是删掉数据和可执行文件，purge 另外还删除所有的配置文件：
+4.完全清除一个已安装的包裹。和 remove 不同的是，remove 只是删掉数据和可执行文件，purge 另外还删除所有的配置文件，其中-P等价于\--purge：
 
 ```bash
 $ sudo dpkg -P <package.deb>
 ```
 
-5.查看package.deb软件包安装的所有文件（软件名称可通过dpkg -I命令查看，其中-L等价于--listfiles）：
+5.查看package.deb软件包安装的所有文件（软件名称可通过dpkg -I命令查看，其中-L等价于\--listfiles）：
 
 ```bash
 $ sudo dpkg -L <package.deb>
 ```
 
-6.查看package.deb软件包的详细信息（软件名称可通过dpkg -I命令查看，其中-s等价于--status）：
+6.查看package.deb软件包的详细信息（软件名称可通过dpkg -I命令查看，其中-s等价于\--status）：
 
 ```bash
 $ sudo dpkg -s <package.deb>
@@ -146,7 +147,8 @@ $ sudo dpkg -s <package.deb>
 ```bash
 $ sudo dpkg-reconfigure <package.deb>
 ```
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=25638810&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=25638810&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=25638810&auto=1&height=66"></iframe>
 
 >最近访客
 
