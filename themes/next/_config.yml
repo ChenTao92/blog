@@ -35,12 +35,12 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  archives: /archives
-  categories: /categories
-  tags: /tags
-  about: /about
+  archives: https://chentao92.github.io/archives/
+  categories: https://chentao92.github.io/categories/
+  tags: https://chentao92.github.io/tags/
+  about: https://chentao92.github.io/about/
   resume: https://chentao92.github.io/MyResume/
-  guestbook: /guestbook
+  guestbook: https://chentao92.github.io/guestbook/
   # commonweal: /404.html
 
 
