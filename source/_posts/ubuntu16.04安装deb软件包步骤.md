@@ -150,7 +150,7 @@ $ sudo dpkg-reconfigure <package.deb>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=25638810&auto=0&height=0"></iframe>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=25638810&auto=1&height=66"></iframe>
 
->最近访客
+<!-- >最近访客
 
 <div class="ds-recent-visitors" data-num-items="28" data-avatar-size="42" id="ds-recent-visitors"></div>
-<br>
+<br> -->

@@ -134,8 +134,8 @@ font:
 social:
   GitHub: https://github.com/chentao92
   Mail: mailto:taochen1992@gmail.com
-  Weibo: http://weibo.com/2269105591
-  zhihu: https://www.zhihu.com/people/wo-bu-hui-qi-ming-ha-ha-ha
+  # Weibo: http://weibo.com/2269105591
+  # zhihu: https://www.zhihu.com/people/wo-bu-hui-qi-ming-ha-ha-ha
   # Twitter: https://twitter.com/your-user-name
   # QQ: 
   # 微信:
@@ -305,10 +305,10 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id:
+# duoshuo_info:
+#   ua_enable: true
+#   admin_enable: false
+#   user_id:
   #admin_nickname: Author
 
 
