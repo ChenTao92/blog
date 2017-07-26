@@ -23,7 +23,7 @@ WebPack可以看做是模块打包器：它做的事情是，分析你的项目�
 
 2.每个项目下都必须配置有一个`webpack.config.js`（可以取任意的名字，但是推荐用该配置名），告诉`webpack`它需要做什么。
 
-3. 
+3.输入`npm init`指令
 ```bash
 $ npm init //生成package.json文件，存放依赖
 ```

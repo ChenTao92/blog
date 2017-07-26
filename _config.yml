@@ -16,9 +16,11 @@ avatar: /uploads/avatar.png
 # duoshuo_hotartical: true
 
 # 站内搜索
-# search:
-#   path: search.xml
-#   field: post
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # 多说分享服务
 # duoshuo_share: true
@@ -96,7 +98,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next-5.1.1
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
