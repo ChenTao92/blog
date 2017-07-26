@@ -159,7 +159,7 @@ $ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitem
 
 ``` bash
 type: git
-repository: https://git@github.com:ChenTao92/ChenTao92.github.io.git
+repository: git@github.com:ChenTao92/ChenTao92.github.io.git
 branch: master
 ```
 
