@@ -74,7 +74,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA9vWA+ToVHjvMV+9LerF7hdHawqh3ls8OVSsYNfP2
 1.在github首页，点击页面中的`Start a project`
 ![](http://ww3.sinaimg.cn/large/873fcdb7jw1f7jsrf98esj21800o443s.jpg)
 
-2.输入仓库名：`username.github.io` (username指你的github用户名，这里以`ChenTao92`为例)
+2.输入仓库名：`username.github.io` (username指你的github用户名，这里以`taylor-chan`为例)
 ![](http://ww4.sinaimg.cn/large/873fcdb7jw1f7jt682c22j21ew0xe0y6.jpg)
 
 ***注：Github Pages的Repository的名字是有规定格式的，否则Github无法识别这个Repository是你的Github账户的Pages***
@@ -155,11 +155,11 @@ $ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitem
 
 ## 配置deploy
 
-在`_config.yml`文件中配置deploy（`username`以`ChenTao92`为例,请自行替换为自己的`username`）
+在`_config.yml`文件中配置deploy（`username`以`taylor-chan`为例,请自行替换为自己的`username`）
 
 ``` bash
 type: git
-repository: git@github.com:ChenTao92/ChenTao92.github.io.git
+repository: git@github.com:taylor-chan/taylor-chan.github.io.git
 branch: master
 ```
 
@@ -186,7 +186,7 @@ $ npm install hexo-deployer-git --save
 ## 访问博客
 
 在以上步骤都成功完整后，浏览器访问链接 `https://{username}.github.io` 即可。
-e.g. : https://chentao92.github.io
+e.g. : https://taylor-chan.github.io
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=425298905&auto=0&height=0"></iframe>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=425298905&auto=1&height=66"></iframe>
 
