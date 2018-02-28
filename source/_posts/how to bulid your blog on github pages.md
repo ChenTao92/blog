@@ -62,7 +62,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA9vWA+ToVHjvMV+9LerF7hdHawqh3ls8OVSsYNfP2
 3.到github中添加密钥（把ssh的公钥给github）
 
 登陆github系统。点击右上角的 Account Settings--->SSH and GPG keys --->New SSH key --->填写`Title`和`Key`
-![](http://ww1.sinaimg.cn/bmiddle/873fcdb7gw1f7js23dlmbj20qu0wejtv.jpg)
+![](http://ww1.sinaimg.cn/large/873fcdb7gy1fow3whja67j207k08pmxf.jpg)
 ![](http://ww1.sinaimg.cn/large/873fcdb7jw1f7jspdbjqxj21ht0vlgv4.jpg)
 
 4.最后，点击`Add SSH key`确认添加密钥
@@ -75,7 +75,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA9vWA+ToVHjvMV+9LerF7hdHawqh3ls8OVSsYNfP2
 ![](http://ww3.sinaimg.cn/large/873fcdb7jw1f7jsrf98esj21800o443s.jpg)
 
 2.输入仓库名：`username.github.io` (username指你的github用户名，这里以`taylor-chan`为例)
-![](http://ww4.sinaimg.cn/large/873fcdb7jw1f7jt682c22j21ew0xe0y6.jpg)
+![](http://ww1.sinaimg.cn/large/873fcdb7gy1fow3xjitf7j20lx0htwgo.jpg)
 
 ***注：Github Pages的Repository的名字是有规定格式的，否则Github无法识别这个Repository是你的Github账户的Pages***
 
