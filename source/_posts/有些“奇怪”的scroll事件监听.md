@@ -27,11 +27,11 @@ tags:
 ```
 ```javascript
 window.addEventListener('scroll', this.scrollHandle);
-```  
-在这样一个DOM结构中，我们在window对象上监听页面的滚动事件，但实际上滚动并未触发`scrollHandle`函数，也就是说没有监听到滚动事件，这里不禁让人有些奇怪了，然鹅，当我们添加第三个参数为true的时候，却又可以正常监听到滚动事件了，究竟是什么原因呢？这便是今天本文要讲述的问题了。
+```
+在这样一个DOM结构中，我们在window对象上监听页面的滚动事件，但实际上滚动并未触发`scrollHandle`函数，也就是说没有监听到滚动事件，这里不禁让人有些奇怪了，然鹅，当我们添加第三个参数为true的时候，却又可以正常监听到滚动事件了，究竟是什么原因呢？这便是今天本文要讲述的问题了。<!-- more -->
 ```javascript
 window.addEventListener('scroll', this.scrollHandle，true);
-``` 
+```
 这里，我们先来了解一下事件流、事件捕获以及事件冒泡。  
 
 ## 事件流、事件捕获、事件冒泡  
@@ -56,14 +56,14 @@ window.addEventListener('scroll', this.scrollHandle，true);
     overflow-y: auto;
 }
 ```
-实际上scroll事件是发生在`<div class="home">`内，所以对监听器修改成：  
+实际上scroll事件是发生在`<div class="home">`内，而非滚动了整个页面，所以对监听器修改成：  
 ```javascript
 document.querySelector(".home").addEventListener('scroll', this.scrollHandle);
-``` 
+```
 就可以使得监听器正常工作了，或者我们配置`capture参数`的值为`true`，指定监听器使用捕获事件流：  
 ```javascript
 window.addEventListener('scroll', this.scrollHandle, true);
-``` 
+```
 
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=28387594&auto=0&height=0"></iframe>
